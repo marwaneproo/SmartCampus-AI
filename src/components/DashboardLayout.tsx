@@ -25,7 +25,9 @@ const DashboardLayout = ({ title, children }: DashboardLayoutProps) => {
           <div className="flex items-center gap-3">
             <GraduationCap className="h-8 w-8 text-primary-foreground" />
             <div>
-              <h1 className="text-lg font-heading font-bold text-primary-foreground">EMSI ClassFlow</h1>
+              <h1 className="text-lg font-heading font-bold text-primary-foreground">
+                EMSI ClassFlow
+              </h1>
               <p className="text-xs text-primary-foreground/80">{title}</p>
             </div>
           </div>
@@ -39,7 +41,9 @@ const DashboardLayout = ({ title, children }: DashboardLayoutProps) => {
           </div>
         </div>
       </header>
-      <main className="container mx-auto px-4 py-6 animate-fade-in">{children}</main>
+      <main className="container mx-auto px-4 py-6 animate-fade-in">
+        {children}
+      </main>
     </div>
   );
 };
