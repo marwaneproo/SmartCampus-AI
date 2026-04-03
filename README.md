@@ -37,6 +37,7 @@ A comprehensive REST API for campus management built with **FastAPI**, **Postgre
 ## Project Structure
 
 ```
+**Backend
 app/
 ├── main.py                 # FastAPI application entry point
 ├── database.py             # Database configuration and session management
@@ -55,15 +56,75 @@ app/
 │   ├── document_schema.py
 │   └── __init__.py
 └── routers/              # API endpoint implementations
-    ├── rooms.py          # /rooms endpoints
-    ├── reservations.py   # /reservations endpoints
-    ├── admin.py          # /admin/reservations endpoints
-    ├── exams.py          # /exams endpoints
-    ├
-    ├── documents.py      # /documents endpoints
-    └── __init__.py
+|    ├── rooms.py          # /rooms endpoints
+|    ├── reservations.py   # /reservations endpoints
+|    ├── admin.py          # /admin/reservations endpoints
+|    ├── exams.py          # /exams endpoints
+|    ├
+|    ├── documents.py      # /documents endpoints
+|    └── __init__.py
+**Frontend
+src/
+│
+├── components/              # Reusable components
+│   ├── ui/                  # Generic UI elements (buttons, cards…)
+│   ├── DashboardLayout.tsx  # Main dashboard layout
+│   └── NavLink.tsx          # Navigation component
+│
+├── contexts/                # Global state management
+│   └── AuthContext.tsx      # User authentication context
+│
+├── hooks/                   # Custom React hooks
+│   ├── use-mobile.tsx       # Handles responsive behavior
+│   └── use-toast.ts         # Toast notification system
+│
+├── lib/                     # Business logic & utilities
+│   ├── api.ts               # Backend communication (API calls)
+│   └── utils.ts             # Helper utility functions
+│
+├── pages/                   # Application pages (routing views)
+│   ├── Index.tsx
+│   ├── Login.tsx
+│   ├── StudentDashboard.tsx
+│   ├── ProfessorDashboard.tsx
+│   ├── AdminDashboard.tsx
+│   └── NotFound.tsx
+│
+├── test/                    # Test files
+│
+├── App.tsx                  # Root component
+├── main.tsx                 # Application entry point
+│
+├── App.css
+├── index.css
+└── vite-env.d.ts
 
 ```
+## ⚙️ Frontend Tech Stack
+
+| Technology |                    Description                       |
+|------------|------------------------------------------------------|
+|  React     | UI library for building interactive user interfaces  |
+|  TypeScript| Provides type safety and better code maintainability |
+|  Vite      | Fast development and build tool                      |
+|  CSS       | Styling and layout                                   |
+|Context API | State management across the application              |
+|  REST API  | Communicates with backend endpoints                  |
+
+---
+
+## ⚙️ Backend Tech Stack
+
+| Technology |                   Description                |
+|------------|----------------------------------------------|
+| Python     | Main programming language                    |
+|  FastAPI   | High-performance backend framework           |
+| SQLAlchemy | ORM for database models                      |
+|  Pydantic  | Data validation and serialization            |
+|  PostgreSQL / MongoDB | Database for storing campus data  |
+|  REST API  | Provides endpoints for frontend consumption  |
+
+---
 
 ## Prerequisites
 
