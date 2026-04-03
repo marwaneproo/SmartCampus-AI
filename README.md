@@ -1,4 +1,14 @@
-#  SmartCampus-AI
+#  ClassFlow — SmartCampus AI
+
+<p align="center">
+  <img src="https://fr.linkedin.com/posts/yassine-farziz_emsi-ainexus-iadanschaquesecteur-activity-7273105800619819009-O-Xz" alt="AI Nexus Logo" width="200"/>
+</p>
+
+<p align="center">
+  <b>Team ClassFlow — AI Nexus Competition</b><br/>
+  <i>Smart, Intelligent, and Modern Campus Management System</i>
+</p>
+
 ###  AI Nexus Competition Project
 
 ![Status](https://img.shields.io/badge/status-active-success)
