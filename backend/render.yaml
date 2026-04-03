@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: emsi-classflow-api
+    env: python
+    plan: free
+    buildCommand: "pip install -r ./requirements.txt"
+    startCommand: "uvicorn app.main:app --host 0.0.0.0 --port 8000"
+    envVars:
+      - key: DATABASE_URL
+        scope: build
+        value: postgresql://postgres.wwrqrcotszuuldoqnqxh:Emsi1Emsi2Emsi3@aws-1-eu-west-2.pooler.supabase.com:5432/postgres
+      - key: PYTHONUNBUFFERED
+        value: "true"
