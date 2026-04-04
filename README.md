@@ -1,10 +1,17 @@
-#  ClassFlow — SmartCampus AI
+<!-- ================= HEADER ================= -->
+<h1 align="center">ClassFlow - Smart Campus AI</h1>
 
 
 <p align="center">
   <b>Team ClassFlow — AI Nexus Competition</b><br/>
   <i>Smart, Intelligent, and Modern Campus Management System</i>
 </p>
+<p align="center">
+  <img src="https://img.shields.io/badge/🏆%20Award-3rd%20Place-gold?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/🤖%20AI-Powered-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/⚡%20Status-Active-success?style=for-the-badge"/>
+</p>
+
 
 ###  AI Nexus Competition Project
 
@@ -17,7 +24,7 @@
 ---
 ## 🌐 Live Demo
 
-[![SmartCampus Preview](./assets/demo.png)](https://emsi-class-flow.vercel.app)
+[![SmartCampus Preview](./public/web1.png)](https://emsi-class-flow.vercel.app)
 
 ##  Overview
 
@@ -275,3 +282,8 @@ DELETE /documents/{id}         - Delete a request
 - `document_type`: Type of document
 - `status`: Enum (pending, approved, rejected)
 - `created_at`: Timestamp
+<!-- ================= VISION ================= -->
+## 🌍 Vision
+
+We aim to redefine the future of education by building  
+**fully intelligent campuses powered by AI**.
