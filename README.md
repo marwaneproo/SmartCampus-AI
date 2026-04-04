@@ -11,20 +11,14 @@
   <img src="https://img.shields.io/badge/🤖%20AI-Powered-blue?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/⚡%20Status-Active-success?style=for-the-badge"/>
 </p>
+<!-- ================= ACHIEVEMENT ================= -->
+## 🏆 Achievement
 
+<p align="center">
+  <strong> Ranked 3rd Place in a High-Level Innovation Competition</strong>
+</p>
 
-###  AI Nexus Competition Project
-
-![Status](https://img.shields.io/badge/status-active-success)
-![AI](https://img.shields.io/badge/AI-powered-blue)
-![Backend](https://img.shields.io/badge/backend-FastAPI-green)
-![Frontend](https://img.shields.io/badge/frontend-modern-orange)
-![License](https://img.shields.io/badge/license-MIT-lightgrey)
-
----
-## 🌐 Live Demo
-
-[![SmartCampus Preview](./public/web1.png)](https://emsi-class-flow.vercel.app)
+--- 
 
 ##  Overview
 
