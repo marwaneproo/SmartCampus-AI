@@ -12,10 +12,11 @@
   <img src="https://img.shields.io/badge/⚡%20Status-Active-success?style=for-the-badge"/>
 </p>
 <!-- ================= ACHIEVEMENT ================= -->
-## 🏆 Achievement
+
+ ##  Achievement
 
 <p align="center">
-  <strong> Ranked 3rd Place in a High-Level Innovation Competition</strong>
+  <strong> 🏆 Ranked 3rd Place in a High-Level Innovation Competition</strong>
 </p>
 
 --- 
